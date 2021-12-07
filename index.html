@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="content">
+        <div class="board-containter">
+        <div class="options">
+            <button class="vs-player selected">VS Player</button>
+            <button class="vs-pc">VS Computer</button>
+        </div>
+            <div class="board">
+                <div class="row">
+                    <button class="cell top left" data-i="0" data-j="0"></button>
+                    <button class="cell top" data-i="0" data-j="1"></button>
+                    <button class="cell top right" data-i="0" data-j="2"></button>
+                </div>
+                <div class="row">
+                    <button class="cell left" data-i="1" data-j="0"></button>
+                    <button class="cell middle" data-i="1" data-j="1"></button>
+                    <button class="cell right" data-i="1" data-j="2"></button>
+                </div>
+                <div class="row">
+                    <button class="cell bot left" data-i="2" data-j="0"></button>
+                    <button class="cell bot" data-i="2" data-j="1"></button>
+                    <button class="cell bot right" data-i="2" data-j="2"></button>
+                </div>
+            </div>
+        <div class="board-footer">
+            <button class="restart">Restart</button>
+        </div>
+    </div>
+    </div>
+    <div class="footer">Project created by<a href="https://github.com/Khorea">Khorea</a></div>
+    <div class="overlay">
+        <p class="winner-intro">Winner is</p>
+        <p class="winner">X</p>
+    </div>
+</body>
+</html>
